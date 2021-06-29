@@ -4,12 +4,16 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /*screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 
 body {
+    color: #2e363e;
+    height: 1000vh;
     @font-face {
         font-family: 'RIDIBatang';
         src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
