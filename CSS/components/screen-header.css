@@ -16,3 +16,17 @@
 .screen-header__title__icons span {
     margin-left: 25px;
 }
+
+.screen-header__title__icons {
+    position: relative;
+}
+
+.screen-header__title__red {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: tomato; 
+    border-radius: 50%;
+    right: -5px;
+    bottom: 18px;
+}
