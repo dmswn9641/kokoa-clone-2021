@@ -17,16 +17,15 @@
     margin-left: 25px;
 }
 
-.screen-header__title__icons {
-    position: relative;
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
 }
 
-.screen-header__title__red {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background-color: tomato; 
-    border-radius: 50%;
-    right: -5px;
-    bottom: 18px;
+.screen-header__title__icons .fa-cog:hover {
+    animation: rotateCog 1s linear infinite;
 }
